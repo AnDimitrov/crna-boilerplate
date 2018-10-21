@@ -29,7 +29,7 @@ addDecorator(
      * URL for name in top left corner to link to
      * @type {String}
      */
-    url: '#',
+    url: 'https://github.com/AnDimitrov/crna-boilerplate',
     /**
      * show addon panel as a vertical panel on the right
      * @type {Boolean}

@@ -1,6 +1,7 @@
 {
   "name": "crna-boilerplate",
   "version": "0.1.0",
+  "homepage": "https://github.com/AnDimitrov/crna-boilerplate",
   "private": true,
   "dependencies": {
     "react": "^16.5.2",
@@ -16,7 +17,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public -c .storybook -o build/",
-    "predeploy": "npm run build:storybook",
+    "predeploy": "npm run build-storybook",
     "deploy": "gh-pages -d build/"
   },
   "eslintConfig": {
@@ -39,6 +40,7 @@
     "@storybook/addon-options": "^4.0.0-rc.1",
     "@storybook/addons": "^4.0.0-rc.1",
     "@storybook/react": "^4.0.0-rc.1",
-    "babel-loader": "^8.0.4"
+    "babel-loader": "^8.0.4",
+    "gh-pages": "^2.0.1"
   }
 }
